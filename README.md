@@ -1,6 +1,6 @@
-#Propine Engineering Test
+# Propine Engineering Test
 
-###Problem Statement
+### Problem Statement
 ```
 Let us assume you are a crypto investor. 
 You have made transactions over a period of time which is logged in a CSV file. 
@@ -11,19 +11,20 @@ Given a token, return the latest portfolio value for that token in USD
 Given a date, return the portfolio value per token in USD on that date
 Given a date and a token, return the portfolio value of that token in USD on that date
 ```
-###Prerequisites:
+### Prerequisites:
 
 - [NodeJS Version 10 and above (Preferably 14.17.3 or 14.17.5)](https://nodejs.org/en/)
 - [Yarn CLI Installed](https://yarnpkg.com/)
 
-###How to run?
+### How to run?
 
 Copy the provided csv file to `./data` folder in the root of the project
 
 Execute the following command:
 
 ```$ yarn && yarn run dev```
-###Design Decisions:
+
+### Design Decisions:
 
 - I chose `yarn` as the dedicated package manager as it is faster and less error prone than `npm` from my standpoint
 - Regarding the given problem, I would like to break it down below
@@ -41,7 +42,7 @@ is faster than csv-parser library
 library when dealing with input time in various format
 ```
 
-###Suggested Improvements (From my own thoughts):
+### Suggested Improvements (From my own thoughts):
 Due to time constraint, I did not have time to improve my application further. However, below are the improvements that 
 I could think of first-hand.
 - Adding Unit Tests
